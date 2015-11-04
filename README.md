@@ -1,8 +1,7 @@
 # alpine-ss
 Shadowsocks docker image based on Alpine Linux 
 
-Usage:
-docker run -p [port]:[port] -d soniclidi/alpine-ss -s 0.0.0.0 -p [port] -k [password] -m [method]
-
-Example:
-docker run -p 8388:8388 -d soniclidi/alpine-ss -s 0.0.0.0 -p 8388 -k password -m aes-256-cfb 
+# Usage:
+set env SS_PORT for shadowsocks server listening port
+set env SS_PASSWORD for shadowsocks encryption password
+set env SS_METHOD for shadowsocks encryption method
