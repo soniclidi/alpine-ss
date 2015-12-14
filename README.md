@@ -1,4 +1,4 @@
-# alpine-ss
+# alpine-shadowsocks
 Shadowsocks docker image based on Alpine Linux.
 Tiny Small, only 49MB size!!!
 
